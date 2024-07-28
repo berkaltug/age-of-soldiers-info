@@ -1,0 +1,15 @@
+@import "../../globals/values.scss";
+
+.detail-container {
+  margin-top: $container-margin;
+  margin-left: $container-margin;
+  margin-right: $container-margin;
+  .infoTitle {
+    font-size: large;
+    font-weight: 600;
+  }
+  .infoText {
+    font-size: large;
+    font-weight: 500;
+  }
+}

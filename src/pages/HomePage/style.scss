@@ -1,0 +1,14 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        text-align: center;
+    }
+    .cover-image{
+        object-fit: contain;
+        width: 50rem;
+        height: 30rem;
+    }
+}

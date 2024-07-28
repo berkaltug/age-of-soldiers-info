@@ -1,0 +1,25 @@
+@import '../../globals/values.scss';
+
+.list-container {
+    margin-right: $container-margin;
+    margin-left: $container-margin;
+    h1{
+        text-align: center;
+    }
+    .costs-title{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .age-title{
+        display: flex;
+        align-items: center;
+    }
+    .row-center{
+        justify-content: center;
+    }
+    .col-center{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+}
